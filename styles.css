@@ -182,19 +182,26 @@
             --skin2-color: #d6b890;
             --hair-color: #FF0000;
 
+            --hair2-color: #403f34;
+            --clothes2-color: #ff0040;
+            --white-color: #ffffff;
+            --trousers-color: #4c4c4c;
+            --grey-color: #999999;
+
             content: "";
             display: block;
             width: 4px;
             height: 4px;
             box-shadow:
-              /* 1º line */
+            /* MERY PELO ROJO 
+
               16px 0 0 var(--pet-color),
               20px 0 0 var(--hair-color),
               24px 0 0 var(--hair-color),
               28px 0 0 var(--hair-color),
               32px 0 0 var(--hair-color),
               36px 0 0 var(--pet-color),
-              /* 2º line */
+
               12px 4px 0 var(--pet-color),
               16px 4px 0 var(--hair-color),
               20px 4px 0 var(--hair-color),
@@ -205,7 +212,7 @@
               40px 4px 0 var(--hair-color),
               44px 4px 0 var(--pet-color),
               48px 4px 0 var(--pet-color),
-              /* 3º line */
+
               8px 8px 0 var(--pet-color),
               12px 8px 0 var(--hair-color),
               16px 8px 0 var(--hair-color),
@@ -218,7 +225,7 @@
               44px 8px 0 var(--pet-color),
               48px 8px 0 var(--hair-color),
               52px 8px 0 var(--pet-color),
-               /* 4º line */
+
               8px 12px 0 var(--pet-color),
               12px 12px 0 var(--hair-color),
               16px 12px 0 var(--pet-color),
@@ -231,7 +238,7 @@
               44px 12px 0 var(--pet-color),
               48px 12px 0 var(--hair-color),
               52px 12px 0 var(--pet-color),
-            /* 5º line */
+
               12px 16px 0 var(--pet-color),
               16px 16px 0 var(--skin-color),
               20px 16px 0 var(--pet-color),
@@ -243,7 +250,7 @@
               44px 16px 0 var(--pet-color),
               48px 16px 0 var(--pet2-color),
               52px 16px 0 var(--pet-color),
-              /* 6º Line */
+
               8px 20px 0 var(--pet-color),
               12px 20px 0 var(--skin-color),
               16px 20px 0 var(--skin-color),
@@ -254,7 +261,7 @@
               36px 20px 0 var(--pet2-color),
               40px 20px 0 var(--pet-color),
               48px 20px 0 var(--pet-color),
-              /* 7º Line */
+
               12px 24px 0 var(--pet-color),
               16px 24px 0 var(--skin2-color),
               20px 24px 0 var(--skin2-color),
@@ -262,51 +269,164 @@
               28px 24px 0 var(--pet2-color),
               32px 24px 0 var(--pet2-color),
               36px 24px 0 var(--pet-color),
-              /* 8º Line */
+
               24px 28px 0 var(--pet-color),
               28px 28px 0 var(--pet-color),
-              /* 9º Line */
+
               20px 32px 0 var(--pet-color),
               24px 32px 0 var(--hair-color),
               28px 32px 0 var(--hair-color),
               32px 32px 0 var(--pet-color),
-              /* 10º Line */
+
               16px 36px 0 var(--pet-color),
               20px 36px 0 var(--pet-color),
               24px 36px 0 var(--hair-color),
               28px 36px 0 var(--hair-color),
               32px 36px 0 var(--pet-color),
-              /* 11º Line */
+
               16px 40px 0 var(--pet-color),
               20px 40px 0 var(--pet-color),
               24px 40px 0 var(--pet-color),
               28px 40px 0 var(--pet-color),
               32px 40px 0 var(--pet-color),
               36px 40px 0 var(--pet-color),
-              /* 12º Line */
+
               16px 44px 0 var(--pet-color),
               20px 44px 0 var(--pet-color),
               24px 44px 0 var(--pet2-color),
               28px 44px 0 var(--pet2-color),
               32px 44px 0 var(--pet2-color),
               36px 44px 0 var(--pet-color),
-              /* 13º Line */
+
               20px 48px 0 var(--pet-color),
               24px 48px 0 var(--pet2-color),
               28px 48px 0 var(--pet2-color),
               32px 48px 0 var(--pet-color),
-              /* 14º Line */
+
               24px 52px 0 var(--pet-color),
               28px 52px 0 var(--skin-color),
               32px 52px 0 var(--pet-color)
               ;
+  */
+              /* MERY TOP ROJO */
+
+              16px 0 0 var(--pet-color),
+              20px 0 0 var(--hair2-color),
+              24px 0 0 var(--hair2-color),
+              28px 0 0 var(--hair2-color),
+              32px 0 0 var(--hair2-color),
+              36px 0 0 var(--pet-color),
+
+              12px 4px 0 var(--pet-color),
+              16px 4px 0 var(--hair2-color),
+              20px 4px 0 var(--hair2-color),
+              24px 4px 0 var(--hair2-color),
+              28px 4px 0 var(--hair2-color),
+              32px 4px 0 var(--hair2-color),
+              36px 4px 0 var(--hair2-color),
+              40px 4px 0 var(--hair2-color),
+              44px 4px 0 var(--pet-color),
+              48px 4px 0 var(--pet-color),
+
+              8px 8px 0 var(--pet-color),
+              12px 8px 0 var(--hair2-color),
+              16px 8px 0 var(--hair2-color),
+              20px 8px 0 var(--hair2-color),
+              24px 8px 0 var(--pet-color),
+              28px 8px 0 var(--hair2-color),
+              32px 8px 0 var(--hair2-color),
+              36px 8px 0 var(--hair2-color),
+              40px 8px 0 var(--hair2-color),
+              44px 8px 0 var(--pet-color),
+              48px 8px 0 var(--hair2-color),
+              52px 8px 0 var(--pet-color),
+
+              8px 12px 0 var(--pet-color),
+              12px 12px 0 var(--hair2-color),
+              16px 12px 0 var(--pet-color),
+              20px 12px 0 var(--hair2-color),
+              24px 12px 0 var(--pet-color),
+              28px 12px 0 var(--hair2-color),
+              32px 12px 0 var(--pet2-color),
+              36px 12px 0 var(--hair2-color),
+              40px 12px 0 var(--hair2-color),
+              44px 12px 0 var(--pet-color),
+              48px 12px 0 var(--hair2-color),
+              52px 12px 0 var(--pet-color),
+
+              12px 16px 0 var(--pet-color),
+              16px 16px 0 var(--skin-color),
+              20px 16px 0 var(--pet-color),
+              24px 16px 0 var(--skin-color),
+              28px 16px 0 var(--pet2-color),
+              32px 16px 0 var(--pet-color),
+              36px 16px 0 var(--hair2-color),
+              40px 16px 0 var(--pet2-color),
+              44px 16px 0 var(--pet-color),
+              48px 16px 0 var(--pet2-color),
+              52px 16px 0 var(--pet-color),
+
+              8px 20px 0 var(--pet-color),
+              12px 20px 0 var(--skin-color),
+              16px 20px 0 var(--skin-color),
+              20px 20px 0 var(--skin-color),
+              24px 20px 0 var(--skin-color),
+              28px 20px 0 var(--pet-color),
+              32px 20px 0 var(--hair2-color),
+              36px 20px 0 var(--pet2-color),
+              40px 20px 0 var(--pet-color),
+              48px 20px 0 var(--pet-color),
+
+              12px 24px 0 var(--pet-color),
+              16px 24px 0 var(--skin2-color),
+              20px 24px 0 var(--skin2-color),
+              24px 24px 0 var(--skin2-color),
+              28px 24px 0 var(--pet2-color),
+              32px 24px 0 var(--pet2-color),
+              36px 24px 0 var(--pet-color),
+
+              24px 28px 0 var(--pet-color),
+              28px 28px 0 var(--pet-color),
+
+              20px 32px 0 var(--pet-color),
+              24px 32px 0 var(--hair-color),
+              28px 32px 0 var(--hair-color),
+              32px 32px 0 var(--pet-color),
+
+              16px 36px 0 var(--pet-color),
+              20px 36px 0 var(--white-color),
+              24px 36px 0 var(--white-color),
+              28px 36px 0 var(--hair-color),
+              32px 36px 0 var(--pet-color),
+
+              20px 40px 0 var(--pet-color),
+              24px 40px 0 var(--pet-color),
+              28px 40px 0 var(--pet-color),
+              32px 40px 0 var(--pet-color),
+              36px 40px 0 var(--pet-color),
+
+              20px 44px 0 var(--pet-color),
+              24px 44px 0 var(--grey-color),
+              28px 44px 0 var(--trousers-color),
+              32px 44px 0 var(--trousers-color),
+              36px 44px 0 var(--pet-color),
+
+              20px 48px 0 var(--pet-color),
+              24px 48px 0 var(--skin-color),
+              28px 48px 0 var(--skin-color),
+              32px 48px 0 var(--pet-color),
+
+              24px 52px 0 var(--pet-color),
+              28px 52px 0 var(--hair2-color),
+              32px 52px 0 var(--pet-color)
+              ;
 
               
-            animation: movePet 1s infinite steps(2);
+           animation: movePet 1s infinite steps(2);
           }
         }
 
-        & .shit {
+        & .cat {
           width: 36px;
           height: 32px;
           align-self: flex-end;
@@ -317,7 +437,7 @@
             display: block;
             width: 4px;
             height: 4px;
-            animation: moveShit 1s infinite steps(2, jump-none);
+            animation: moveCat 1s infinite steps(2, jump-none);
           }
         }
       }
@@ -394,65 +514,118 @@
   }
 }
 
-@keyframes moveShit {
+@keyframes moveCat {
   0% {
     box-shadow:
-      32px 0 0 #000,
-      4px 4px 0 #000,
-      28px 4px 0 #000,
-      0 8px 0 #000,
-      32px 8px 0 #000,
-      4px 12px 0 #000,
-      16px 12px 0 #000,
-      16px 16px 0 #000,
-      20px 16px 0 #000,
-      8px 20px 0 #000,
-      12px 20px 0 #000,
-      16px 20px 0 #000,
-      24px 20px 0 #000,
-      4px 24px 0 #000,
-      8px 24px 0 #000,
-      12px 24px 0 #000,
-      16px 24px 0 #000,
-      20px 24px 0 #000,
-      28px 24px 0 #000,
-      4px 28px 0 #000,
-      8px 28px 0 #000,
-      12px 28px 0 #000,
-      16px 28px 0 #000,
-      20px 28px 0 #000,
-      24px 28px 0 #000,
-      28px 28px 0 #000;
+    20px -20px 0 #FF69B4,
+    28px -20px 0 #FF69B4,
+    16px -16px 0 #FF69B4,
+    20px -16px 0 #FF69B4,
+    24px -16px 0 #FF69B4,
+    28px -16px 0 #FF69B4,
+    32px -16px 0 #FF69B4,
+    20px -12px 0 #FF69B4,
+    24px -12px 0 #FF69B4,
+    28px -12px 0 #FF69B4,
+    24px -8px 0 #FF69B4,
+
+    8px 4px 0 #000,
+    16px 4px 0 #000,
+    4px 8px 0 #000,
+    8px 8px 0 #403f34,
+    12px 8px 0 #000,
+    16px 8px 0 #403f34,
+    20px 8px 0 #000,
+    4px 12px 0 #000,
+    8px 12px 0 #fff,
+    12px 12px 0 #403f34,
+    16px 12px 0 #fff,
+    20px 12px 0 #000,
+    4px 16px 0 #000,
+    8px 16px 0 #a37f1c,
+    12px 16px 0 #403f34,
+    16px 16px 0 #403f34,
+    20px 16px 0 #a37f1c,
+    24px 16px 0 #000,
+    32px 16px 0 #000,
+    36px 16px 0 #a37f1c,
+    8px 20px 0 #000,
+    12px 20px 0 #a37f1c,
+    16px 20px 0 #403f34,
+    20px 20px 0 #403f34,
+    24px 20px 0 #403f34,
+    28px 20px 0 #000,
+    32px 20px 0 #403f34,
+    36px 20px 0 #000,
+    8px 24px 0 #000,
+    12px 24px 0 #403f34,
+    16px 24px 0 #000,
+    20px 24px 0 #000,
+    24px 24px 0 #000,
+    28px 24px 0 #a37f1c,
+    32px 24px 0 #000,
+    12px 28px 0 #000,
+    24px 28px 0 #000,
+    28px 28px 0 #000
+
+
+    ;
+      
   }
 
   100% {
     box-shadow:
-      0 0 0 #000,
-      4px 4px 0 #000,
-      28px 4px 0 #000,
-      0 8px 0 #000,
-      32px 8px 0 #000,
-      16px 12px 0 #000,
-      28px 12px 0 #000,
-      16px 16px 0 #000,
-      20px 16px 0 #000,
-      8px 20px 0 #000,
-      12px 20px 0 #000,
-      16px 20px 0 #000,
-      24px 20px 0 #000,
-      4px 24px 0 #000,
-      12px 24px 0 #000,
-      16px 24px 0 #000,
-      20px 24px 0 #000,
-      24px 24px 0 #000,
-      28px 24px 0 #000,
-      4px 28px 0 #000,
-      8px 28px 0 #000,
-      12px 28px 0 #000,
-      16px 28px 0 #000,
-      20px 28px 0 #000,
-      24px 28px 0 #000,
-      28px 28px 0 #000;
+    0px -16px 0 #FF69B4,
+    8px -16px 0 #FF69B4,
+    -4px -12px 0 #FF69B4,
+    0px -12px 0 #FF69B4,
+    4px -12px 0 #FF69B4,
+    8px -12px 0 #FF69B4,
+    12px -12px 0 #FF69B4,
+    0px -8px 0 #FF69B4,
+    4px -8px 0 #FF69B4,
+    8px -8px 0 #FF69B4,
+    4px -4px 0 #FF69B4,
+
+    8px 4px 0 #000,
+    16px 4px 0 #000,
+    4px 8px 0 #000,
+    8px 8px 0 #403f34,
+    12px 8px 0 #000,
+    16px 8px 0 #403f34,
+    20px 8px 0 #000,
+    4px 12px 0 #000,
+    8px 12px 0 #fff,
+    12px 12px 0 #403f34,
+    16px 12px 0 #fff,
+    20px 12px 0 #000,
+    4px 16px 0 #000,
+    8px 16px 0 #a37f1c,
+    12px 16px 0 #403f34,
+    16px 16px 0 #403f34,
+    20px 16px 0 #a37f1c,
+    24px 16px 0 #000,
+    32px 16px 0 #000,
+    36px 16px 0 #a37f1c,
+    8px 20px 0 #000,
+    12px 20px 0 #a37f1c,
+    16px 20px 0 #403f34,
+    20px 20px 0 #403f34,
+    24px 20px 0 #403f34,
+    28px 20px 0 #000,
+    32px 20px 0 #403f34,
+    36px 20px 0 #000,
+    8px 24px 0 #000,
+    12px 24px 0 #403f34,
+    16px 24px 0 #000,
+    20px 24px 0 #000,
+    24px 24px 0 #000,
+    28px 24px 0 #a37f1c,
+    32px 24px 0 #000,
+    12px 28px 0 #000,
+    24px 28px 0 #000,
+    28px 28px 0 #000
+    ; 
   }
 }
 
