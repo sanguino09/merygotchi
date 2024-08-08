@@ -44,6 +44,9 @@ const COLORS_BUTTON = [
   pet.style.display = "none";
   gamepadItem.style.display = "none";
   dumbellItem.style.display = "block";
+
+    var gymAudio = document.getElementById("gymAudio");
+  gymAudio.play();
 });
 
 dice.addEventListener("click",function(){
@@ -64,6 +67,9 @@ gamepad.addEventListener("click",function(){
   pet.style.display = "none";
   gamepadItem.style.display = "block";
   dumbellItem.style.display = "none";
+
+  var gameAudio = document.getElementById("gameAudio");
+  gameAudio.play();
 });
 utensils.addEventListener("click",function(){
   utensils.style.color = "#3b3a3a";
