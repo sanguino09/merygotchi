@@ -91,6 +91,9 @@ paw.addEventListener("click",function(){
   cat.style.display = "block";
   bookItem.style.display = "none";
   utensilsItem.style.display = "none";
+
+  var catAudio = document.getElementById("catAudio");
+  catAudio.play();
 });
 
 var cat = document.getElementById("cat");
