@@ -26,3 +26,73 @@ const COLORS_BUTTON = [
       tamagotchi.style.setProperty("--buttons-color", COLORS_BUTTON[index].buttonsColor);
     });
   });
+
+  var pet = document.getElementById("pet");
+  var dumbell = document.getElementById("dumbell");
+  var utensils = document.getElementById("utensils");
+  var dice = document.getElementById("dice");
+  var paw = document.getElementById("paw");
+  var gamepad = document.getElementById("gamepad");
+  var book = document.getElementById("book");
+
+  dumbell.addEventListener("click",function(){
+    dumbell.style.color = "#3b3a3a";
+    dice.style.color = "grey";
+    gamepad.style.color = "grey";
+
+    
+  pet.style.display = "none";
+  gamepadItem.style.display = "none";
+  dumbellItem.style.display = "block";
+});
+
+dice.addEventListener("click",function(){
+  dice.style.color = "#3b3a3a";
+  dumbell.style.color = "grey";
+  gamepad.style.color = "grey";
+
+  pet.style.display = "block";
+  gamepadItem.style.display = "none";
+  dumbellItem.style.display = "none";
+});
+
+gamepad.addEventListener("click",function(){
+  dice.style.color = "grey";
+  dumbell.style.color = "grey";
+  gamepad.style.color = "#3b3a3a";
+
+  pet.style.display = "none";
+  gamepadItem.style.display = "block";
+  dumbellItem.style.display = "none";
+});
+utensils.addEventListener("click",function(){
+  utensils.style.color = "#3b3a3a";
+  book.style.color = "grey";
+  paw.style.color = "grey";
+
+  cat.style.display = "none";
+  bookItem.style.display = "none";
+  utensilsItem.style.display = "block";
+});
+book.addEventListener("click",function(){
+  book.style.color = "#3b3a3a";
+  utensils.style.color = "grey";
+  paw.style.color = "grey";
+
+  cat.style.display = "none";
+  bookItem.style.display = "block";
+  utensilsItem.style.display = "none";
+});
+paw.addEventListener("click",function(){
+  paw.style.color = "#3b3a3a";
+  utensils.style.color = "grey";
+  book.style.color = "grey";
+
+  cat.style.display = "block";
+  bookItem.style.display = "none";
+  utensilsItem.style.visibility = "none";
+});
+
+var cat = document.getElementById("cat");
+var bookItem = document.getElementById("bookItem");
+var utensilsItem = document.getElementById("utensilsItem");

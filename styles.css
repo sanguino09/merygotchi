@@ -193,122 +193,6 @@
             width: 4px;
             height: 4px;
             box-shadow:
-            /* MERY PELO ROJO 
-
-              16px 0 0 var(--pet-color),
-              20px 0 0 var(--hair-color),
-              24px 0 0 var(--hair-color),
-              28px 0 0 var(--hair-color),
-              32px 0 0 var(--hair-color),
-              36px 0 0 var(--pet-color),
-
-              12px 4px 0 var(--pet-color),
-              16px 4px 0 var(--hair-color),
-              20px 4px 0 var(--hair-color),
-              24px 4px 0 var(--hair-color),
-              28px 4px 0 var(--hair-color),
-              32px 4px 0 var(--hair-color),
-              36px 4px 0 var(--hair-color),
-              40px 4px 0 var(--hair-color),
-              44px 4px 0 var(--pet-color),
-              48px 4px 0 var(--pet-color),
-
-              8px 8px 0 var(--pet-color),
-              12px 8px 0 var(--hair-color),
-              16px 8px 0 var(--hair-color),
-              20px 8px 0 var(--hair-color),
-              24px 8px 0 var(--pet-color),
-              28px 8px 0 var(--hair-color),
-              32px 8px 0 var(--hair-color),
-              36px 8px 0 var(--hair-color),
-              40px 8px 0 var(--hair-color),
-              44px 8px 0 var(--pet-color),
-              48px 8px 0 var(--hair-color),
-              52px 8px 0 var(--pet-color),
-
-              8px 12px 0 var(--pet-color),
-              12px 12px 0 var(--hair-color),
-              16px 12px 0 var(--pet-color),
-              20px 12px 0 var(--hair-color),
-              24px 12px 0 var(--pet-color),
-              28px 12px 0 var(--hair-color),
-              32px 12px 0 var(--pet2-color),
-              36px 12px 0 var(--hair-color),
-              40px 12px 0 var(--hair-color),
-              44px 12px 0 var(--pet-color),
-              48px 12px 0 var(--hair-color),
-              52px 12px 0 var(--pet-color),
-
-              12px 16px 0 var(--pet-color),
-              16px 16px 0 var(--skin-color),
-              20px 16px 0 var(--pet-color),
-              24px 16px 0 var(--skin-color),
-              28px 16px 0 var(--pet2-color),
-              32px 16px 0 var(--pet-color),
-              36px 16px 0 var(--hair-color),
-              40px 16px 0 var(--pet2-color),
-              44px 16px 0 var(--pet-color),
-              48px 16px 0 var(--pet2-color),
-              52px 16px 0 var(--pet-color),
-
-              8px 20px 0 var(--pet-color),
-              12px 20px 0 var(--skin-color),
-              16px 20px 0 var(--skin-color),
-              20px 20px 0 var(--skin-color),
-              24px 20px 0 var(--skin-color),
-              28px 20px 0 var(--pet-color),
-              32px 20px 0 var(--hair-color),
-              36px 20px 0 var(--pet2-color),
-              40px 20px 0 var(--pet-color),
-              48px 20px 0 var(--pet-color),
-
-              12px 24px 0 var(--pet-color),
-              16px 24px 0 var(--skin2-color),
-              20px 24px 0 var(--skin2-color),
-              24px 24px 0 var(--skin2-color),
-              28px 24px 0 var(--pet2-color),
-              32px 24px 0 var(--pet2-color),
-              36px 24px 0 var(--pet-color),
-
-              24px 28px 0 var(--pet-color),
-              28px 28px 0 var(--pet-color),
-
-              20px 32px 0 var(--pet-color),
-              24px 32px 0 var(--hair-color),
-              28px 32px 0 var(--hair-color),
-              32px 32px 0 var(--pet-color),
-
-              16px 36px 0 var(--pet-color),
-              20px 36px 0 var(--pet-color),
-              24px 36px 0 var(--hair-color),
-              28px 36px 0 var(--hair-color),
-              32px 36px 0 var(--pet-color),
-
-              16px 40px 0 var(--pet-color),
-              20px 40px 0 var(--pet-color),
-              24px 40px 0 var(--pet-color),
-              28px 40px 0 var(--pet-color),
-              32px 40px 0 var(--pet-color),
-              36px 40px 0 var(--pet-color),
-
-              16px 44px 0 var(--pet-color),
-              20px 44px 0 var(--pet-color),
-              24px 44px 0 var(--pet2-color),
-              28px 44px 0 var(--pet2-color),
-              32px 44px 0 var(--pet2-color),
-              36px 44px 0 var(--pet-color),
-
-              20px 48px 0 var(--pet-color),
-              24px 48px 0 var(--pet2-color),
-              28px 48px 0 var(--pet2-color),
-              32px 48px 0 var(--pet-color),
-
-              24px 52px 0 var(--pet-color),
-              28px 52px 0 var(--skin-color),
-              32px 52px 0 var(--pet-color)
-              ;
-  */
-              /* MERY TOP ROJO */
 
               16px 0 0 var(--pet-color),
               20px 0 0 var(--hair2-color),
@@ -422,10 +306,205 @@
               ;
 
               
-           animation: movePet 1s infinite steps(2);
+           animation: movePet 2s infinite steps(2);
           }
         }
+        & .gamepadItem {
+          width: 42%;
+          height: 100%;
+          transform: scale(0.8);
 
+          &::before {
+            --pet-color: #222;
+            --pet2-color: #722F37;
+            --skin-color: #ffdbac;
+            --skin2-color: #d6b890;
+
+            --hair2-color: #403f34;
+            --clothes2-color: #ff0040;
+            --white-color: #ffffff;
+            --trousers-color: #4c4c4c;
+            --grey-color: #999999;
+
+
+
+            --skin-color: #ffdbac;
+            --grey-color: #4a4a4a;
+            --lightgrey-color: #a6a6a7;
+            --darkgrey-color: #303030;
+
+            --brown-color: #6c402f;
+            --hair-color: #26261f;
+            --olive-color: #545730;
+            --black-color: #000;
+
+            content: "";
+            display: block;
+            width: 4px;
+            height: 4px;
+            box-shadow:
+              24px -4px 0 var(--black-color),
+              28px -4px 0 var(--black-color),
+              40px -4px 0 var(--black-color),
+              44px -4px 0 var(--black-color),              
+
+              
+              16px 0px 0 var(--black-color),
+              20px 0px 0 var(--black-color),
+              24px 0px 0 var(--lightgrey-color),
+              28px 0px 0 var(--black-color),
+              36px 0px 0 var(--black-color),
+              40px 0px 0 var(--lightgrey-color),
+              44px 0px 0 var(--grey-color),
+              48px 0px 0 var(--black-color),
+
+              12px 4px 0 var(--black-color),
+              16px 4px 0 var(--lightgrey-color),
+              20px 4px 0 var(--grey-color),
+              24px 4px 0 var(--grey-color),
+              28px 4px 0 var(--grey-color),
+              32px 4px 0 var(--black-color),
+              36px 4px 0 var(--lightgrey-color),
+              40px 4px 0 var(--grey-color),
+              44px 4px 0 var(--black-color),
+              
+              8px 8px 0 var(--black-color),
+              12px 8px 0 var(--lightgrey-color),
+              16px 8px 0 var(--grey-color),
+              20px 8px 0 var(--grey-color),
+              24px 8px 0 var(--grey-color),
+              28px 8px 0 var(--lightgrey-color),
+              32px 8px 0 var(--lightgrey-color),
+              36px 8px 0 var(--grey-color),
+              40px 8px 0 var(--black-color),
+              44px 8px 0 var(--black-color),
+              
+
+              4px 12px 0 var(--black-color),
+              8px 12px 0 var(--grey-color),
+              12px 12px 0 var(--grey-color),
+              16px 12px 0 var(--grey-color),
+              20px 12px 0 var(--grey-color),
+              24px 12px 0 var(--grey-color),
+              28px 12px 0 var(--grey-color),
+              32px 12px 0 var(--grey-color),
+              36px 12px 0 var(--black-color),
+              40px 12px 0 var(--black-color),
+
+              8px 16px 0 var(--black-color),
+              12px 16px 0 var(--black-color),
+              16px 16px 0 var(--black-color),
+              20px 16px 0 var(--black-color),
+              24px 16px 0 var(--black-color),
+              28px 16px 0 var(--black-color),
+              32px 16px 0 var(--black-color),
+              36px 16px 0 var(--black-color),
+              40px 16px 0 var(--hair-color),
+
+              12px 20px 0 var(--pet-color),
+              16px 20px 0 var(--skin-color),
+              20px 20px 0 var(--pet-color),
+              24px 20px 0 var(--skin-color),
+              28px 20px 0 var(--hair-color),
+              32px 20px 0 var(--black-color),
+              36px 20px 0 var(--hair-color),
+              40px 20px 0 var(--hair-color),
+
+              8px 24px 0 var(--pet-color),
+              12px 24px 0 var(--grey-color),
+              16px 24px 0 var(--grey-color),
+              20px 24px 0 var(--skin-color),
+              24px 24px 0 var(--skin-color),
+              28px 24px 0 var(--pet-color),
+              32px 24px 0 var(--grey-color),
+              36px 24px 0 var(--darkgrey-color),
+              40px 24px 0 var(--pet-color),
+
+              12px 28px 0 var(--darkgrey-color),
+              16px 28px 0 var(--darkgrey-color),
+              20px 28px 0 var(--grey-color),
+              24px 28px 0 var(--grey-color),
+              28px 28px 0 var(--grey-color),
+              32px 28px 0 var(--darkgrey-color),
+              36px 28px 0 var(--pet-color),
+
+              8px 32px 0 var(--pet-color),
+              20px 32px 0 var(--lightgrey-color),
+              24px 32px 0 var(--darkgrey-color),
+              28px 32px 0 var(--grey-color),
+
+              -4px 36px 0 var(--pet-color),
+              0px 36px 0 var(--lightgrey-color),
+              4px 36px 0 var(--brown-color),
+              8px 36px 0 var(--brown-color),
+              12px 36px 0 var(--brown-color),
+              20px 36px 0 var(--darkgrey-color),
+              24px 36px 0 var(--darkgrey-color),
+              28px 36px 0 var(--darkgrey-color),
+              32px 36px 0 var(--darkgrey-color),
+
+              0px 40px 0 var(--pet-color),
+              4px 40px 0 var(--lightgrey-color),
+              8px 40px 0 var(--lightgrey-color),
+              12px 40px 0 var(--brown-color),
+              16px 40px 0 var(--darkgrey-color),
+              20px 40px 0 var(--lightgrey-color),
+              24px 40px 0 var(--olive-color),
+              28px 40px 0 var(--darkgrey-color),
+              32px 40px 0 var(--black-color),
+
+              16px 44px 0 var(--brown-color),
+              20px 44px 0 var(--black-color),
+              24px 44px 0 var(--black-color),
+              28px 44px 0 var(--black-color),
+              32px 44px 0 var(--black-color),
+              36px 44px 0 var(--black-color),
+
+              20px 48px 0 var(--grey-color),
+              24px 48px 0 var(--olive-color),
+              28px 48px 0 var(--darkgrey-color),
+              32px 48px 0 var(--grey-color),
+              36px 48px 0 var(--grey-color),
+
+              20px 52px 0 var(--grey-color),
+              24px 52px 0 var(--grey-color),
+              28px 52px 0 var(--darkgrey-color),
+              32px 52px 0 var(--olive-color),
+
+              24px 56px 0 var(--darkgrey-color),
+              28px 56px 0 var(--darkgrey-color),
+              32px 56px 0 var(--grey-color)
+              ;
+
+              
+           animation: movePet 2s infinite steps(2);
+          }
+        }
+        & .dumbellItem {
+          width: 42%;
+          height: 100%;
+          transform: scale(0.8);
+
+          &::before {
+            --pet-color: #222;
+
+            --skin-color: #ffdbac;
+            --grey-color: #4a4a4a;
+            --lightgrey-color: #a6a6a7;
+            --darkgrey-color: #303030;
+
+            --brown-color: #6c402f;
+            --hair-color: #26261f;
+            --olive-color: #545730;
+            --black-color: #000;
+
+            content: "";
+            display: block;
+            width: 4px;
+            height: 4px;
+            animation: moveDumbellItem 1s infinite steps(2);
+          }
+        }
         & .cat {
           width: 36px;
           height: 32px;
@@ -438,6 +517,34 @@
             width: 4px;
             height: 4px;
             animation: moveCat 1s infinite steps(2, jump-none);
+          }
+        }
+        & .bookItem {
+          width: 36px;
+          height: 32px;
+          align-self: flex-end;
+          transform: translate(10px, 0) scale(0.6);
+
+          &::before {
+            content: "";
+            display: block;
+            width: 4px;
+            height: 4px;
+            animation: moveBookItem 1s infinite steps(2, jump-none);
+          }
+        }
+        & .utensilsItem {
+          width: 36px;
+          height: 32px;
+          align-self: flex-end;
+          transform: translate(10px, 0) scale(0.6);
+
+          &::before {
+            content: "";
+            display: block;
+            width: 4px;
+            height: 4px;
+            animation: moveUtensilsItem 1s infinite steps(2, jump-none);
           }
         }
       }
@@ -506,11 +613,268 @@
 
 @keyframes movePet {
   0% {
-    transform: translate(40px, 0) rotateY(180deg);
+    transform: translate(40px, 0) rotateY(-180deg);
   }
 
   100% {
-    transform: translate(-20px, 0) rotateY(-180deg);
+    transform: translate(-20px, 0) rotateY(180deg);
+    
+  }
+}
+
+@keyframes moveDumbellItem{
+  0% {
+    box-shadow:
+    
+    4px 16px 0 #26261f,
+    44px 16px 0 #26261f,
+
+    0px 20px 0 #73716f,
+    4px 20px 0 #26261f,
+    8px 20px 0 #73716f,
+    12px 20px 0 #73716f,
+    16px 20px 0 #73716f,
+    20px 20px 0 #73716f,
+    24px 20px 0 #73716f,
+    28px 20px 0 #73716f,
+    32px 20px 0 #73716f,
+    36px 20px 0 #73716f,
+    40px 20px 0 #73716f,
+    44px 20px 0 #26261f,
+    48px 20px 0 #73716f,
+
+    12px 24px 0 #fff9bd,
+    36px 24px 0 #fff9bd,
+    4px 24px 0 #26261f,
+    44px 24px 0 #26261f,
+
+    12px 20px 0 #fff9bd,
+    36px 20px 0 #fff9bd,
+
+    12px 24px 0 #fff9bd,
+    36px 24px 0 #fff9bd,
+
+    0 28px 0 #73716f,
+    12px 28px 0 #fff9bd,
+    16px 28px 0 #26261f,
+    20px 28px 0 #fff9bd,
+    24px 28px 0 #fff9bd,
+    28px 28px 0 #fff9bd,
+    32px 28px 0 black,
+    36px 28px 0 #fff9bd,
+    48px 28px 0 #73716f,
+
+    0 32px 0 #545730,
+    16px 32px 0 #26261f,
+    20px 32px 0 #26261f,
+    24px 32px 0 #26261f,
+    28px 32px 0 #26261f,
+    32px 32px 0 #26261f,
+    48px 32px 0 #545730,
+
+    0 36px 0 #73716f,
+    12px 36px 0 #73716f,
+    16px 36px 0 #73716f,
+    20px 36px 0 #26261f,
+    24px 36px 0 #26261f,
+    28px 36px 0 #26261f,
+    32px 36px 0 #73716f,
+    36px 36px 0 #73716f,
+    48px 36px 0 #73716f,
+
+    0 40px 0 #73716f,
+    16px 40px 0 #73716f,
+    20px 40px 0 #73716f,
+    24px 40px 0 #73716f,
+    28px 40px 0 #73716f,
+    32px 40px 0 #73716f,
+    48px 40px 0 #73716f,
+
+    0 44px 0 #73716f,
+    12px 44px 0 #73716f,
+    16px 44px 0 #73716f,
+    32px 44px 0 #73716f,
+    36px 44px 0 #73716f,
+    48px 44px 0 #73716f,
+
+    -4px 48px 0 #73716f,
+    4px 48px 0 #73716f,
+    12px 48px 0 #73716f,
+    36px 48px 0 #73716f,
+    44px 48px 0 #73716f,
+    52px 48px 0 #73716f
+    ;
+      
+  }
+
+  100% {
+    box-shadow:
+    4px 8px 0 #26261f,
+    44px 8px 0 #26261f,
+
+    0px 12px 0 #73716f,
+    4px 12px 0 #26261f,
+    8px 12px 0 #73716f,
+    12px 12px 0 #73716f,
+    16px 12px 0 #73716f,
+    20px 12px 0 #73716f,
+    24px 12px 0 #73716f,
+    28px 12px 0 #73716f,
+    32px 12px 0 #73716f,
+    36px 12px 0 #73716f,
+    40px 12px 0 #73716f,
+    44px 12px 0 #26261f,
+    48px 12px 0 #73716f,
+
+    12px 16px 0 #fff9bd,
+    36px 16px 0 #fff9bd,
+    4px 16px 0 #26261f,
+    44px 16px 0 #26261f,
+
+    12px 20px 0 #fff9bd,
+    36px 20px 0 #fff9bd,
+
+    12px 24px 0 #fff9bd,
+    36px 24px 0 #fff9bd,
+
+    0 28px 0 #73716f,
+    12px 28px 0 #fff9bd,
+    16px 28px 0 #26261f,
+    20px 28px 0 #fff9bd,
+    24px 28px 0 #fff9bd,
+    28px 28px 0 #fff9bd,
+    32px 28px 0 black,
+    36px 28px 0 #fff9bd,
+    48px 28px 0 #73716f,
+
+    0 32px 0 #545730,
+    16px 32px 0 #26261f,
+    20px 32px 0 #26261f,
+    24px 32px 0 #26261f,
+    28px 32px 0 #26261f,
+    32px 32px 0 #26261f,
+    48px 32px 0 #545730,
+
+    0 36px 0 #73716f,
+    12px 36px 0 #73716f,
+    16px 36px 0 #73716f,
+    20px 36px 0 #26261f,
+    24px 36px 0 #26261f,
+    28px 36px 0 #26261f,
+    32px 36px 0 #73716f,
+    36px 36px 0 #73716f,
+    48px 36px 0 #73716f,
+
+    0 40px 0 #73716f,
+    16px 40px 0 #73716f,
+    20px 40px 0 #73716f,
+    24px 40px 0 #73716f,
+    28px 40px 0 #73716f,
+    32px 40px 0 #73716f,
+    48px 40px 0 #73716f,
+
+    0 44px 0 #73716f,
+    12px 44px 0 #73716f,
+    16px 44px 0 #73716f,
+    32px 44px 0 #73716f,
+    36px 44px 0 #73716f,
+    48px 44px 0 #73716f,
+
+    -4px 48px 0 #73716f,
+    4px 48px 0 #73716f,
+    12px 48px 0 #73716f,
+    36px 48px 0 #73716f,
+    44px 48px 0 #73716f,
+    52px 48px 0 #73716f
+   
+    ; 
+  }
+}
+
+@keyframes moveUtensilsItem{
+  0% {
+    box-shadow:
+
+    12px -8px 0 #fff,
+
+    16px -12px 0 #fff,
+    20px -4px 0 #fff,
+
+    24px 0px 0 #fff,
+
+    12px 8px 0 #fff,
+    16px 8px 0 #ffc00f,
+    20px 8px 0 #23b14d,
+    24px 8px 0 #ed1b24,
+    28px 8px 0 #fff,
+
+    16px 12px 0 #fff,
+    20px 12px 0 #fff,
+    24px 12px 0 #fff,
+
+    4px 16px 0 #9c5a3c,
+    8px 16px 0 #9c5a3c,
+    12px 16px 0 #9c5a3c,
+    16px 16px 0 #9c5a3c,
+    20px 16px 0 #9c5a3c,
+    24px 16px 0 #9c5a3c,
+    28px 16px 0 #9c5a3c,
+    32px 16px 0 #9c5a3c,
+    36px 16px 0 #9c5a3c,
+
+    8px 20px 0 #9c5a3c,
+    32px 20px 0 #9c5a3c,
+
+    8px 24px 0 #9c5a3c,
+    32px 24px 0 #9c5a3c,
+
+    8px 28px 0 #9c5a3c,
+    32px 28px 0 #9c5a3c
+
+
+    ;
+      
+  }
+
+  100% {
+    box-shadow:
+    
+    28px -8px 0 #fff,
+
+    12px -4px 0 #fff,
+    24px -4px 0 #fff,
+
+    16px 0px 0 #fff,
+
+    12px 8px 0 #fff,
+    16px 8px 0 #23b14d,
+    20px 8px 0 #ed1b24,
+    24px 8px 0 #ffc00f,
+    28px 8px 0 #fff,
+
+    16px 12px 0 #fff,
+    20px 12px 0 #fff,
+    24px 12px 0 #fff,
+
+    4px 16px 0 #9c5a3c,
+    8px 16px 0 #9c5a3c,
+    12px 16px 0 #9c5a3c,
+    16px 16px 0 #9c5a3c,
+    20px 16px 0 #9c5a3c,
+    24px 16px 0 #9c5a3c,
+    28px 16px 0 #9c5a3c,
+    32px 16px 0 #9c5a3c,
+    36px 16px 0 #9c5a3c,
+
+    8px 20px 0 #9c5a3c,
+    32px 20px 0 #9c5a3c,
+
+    8px 24px 0 #9c5a3c,
+    32px 24px 0 #9c5a3c,
+
+    8px 28px 0 #9c5a3c,
+    32px 28px 0 #9c5a3c
+    ; 
   }
 }
 
@@ -629,46 +993,156 @@
   }
 }
 
-.created {
-  background: 
-    url(https://assets.codepen.io/154065/internal/avatars/users/default.png),
-    linear-gradient(to bottom, #884ced, #ec1cce);
-  background-size: 75px 75px, cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 250px;
-  height: 75px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 2em;
   
-  & span,
-  & h2,
-  & p,
-  & a {
-    font-family: Montserrat;
-    margin: 0;
+@keyframes moveBookItem {
+  0% {
+    box-shadow:
+
+    4px -8px 0 #000,
+    8px -8px 0 #000,
+    12px -8px 0 #fff,
+    16px -8px 0 #fff,
+    20px -8px 0 #fff,
+
+    0px -4px 0 #000,
+    4px -4px 0 #1db324,
+    8px -4px 0 #fff,
+    12px -4px 0 #1db324,
+    16px -4px 0 #000,
+
+    0px 0px 0 #000,
+    4px 0px 0 #1db324,
+    8px 0px 0 #1db324,
+    12px 0px 0 #1db324,
+    16px 0px 0 #000,
+    24px 0px 0 #000,
+    28px 0px 0 #000,
+    32px 0px 0 #1db324,
+
+    4px 4px 0 #000,
+    8px 4px 0 #000,
+    12px 4px 0 #1db324,
+    16px 4px 0 #1db324,
+    20px 4px 0 #000,
+    24px 4px 0 #000,
+    28px 4px 0 #84b31e,
+    32px 4px 0 #1db324,
+
+    12px 8px 0 #000,
+    16px 8px 0 #1db324,
+    20px 8px 0 #1db324,
+    24px 8px 0 #000,
+    28px 8px 0 #84b31e,
+    32px 8px 0 #1db324,
+
+    12px 12px 0 #000,
+    16px 12px 0 #1db324,
+    20px 12px 0 #1db324,
+    24px 12px 0 #1db324,
+    28px 12px 0 #000,
+    32px 12px 0 #84b31e,
+    36px 12px 0 #1db324,
+
+    16px 16px 0 #000,
+    20px 16px 0 #1db324,
+    28px 16px 0 #000,
+    32px 16px 0 #84b31e,
+    36px 16px 0 #1db324,
+    40px 16px 0 #1db324,
+
+    32px 20px 0 #000,
+    36px 20px 0 #84b31e,
+    40px 20px 0 #fff,
+    44px 20px 0 #fff
+
+    ;
+      
   }
+
+  100% {
+    box-shadow:
+    32px -4px 0 #000,
+    36px -4px 0 #000,
+    40px -4px 0 #fff,
+    44px -4px 0 #fff,
+
+    4px 0px 0 #000,
+    8px 0px 0 #000,
+    12px 0px 0 #fff,
+    16px 0px 0 #fff,
+    20px 0px 0 #fff,
+    28px 0px 0 #000,
+    32px 0px 0 #1db324,
+    36px 0px 0 #1db324,
+    40px 0px 0 #84b31e,
+
+    0px 4px 0 #000,
+    4px 4px 0 #1db324,
+    8px 4px 0 #fff,
+    12px 4px 0 #1db324,
+    16px 4px 0 #000,
+    28px 4px 0 #000,
+    32px 4px 0 #1db324,
+    36px 4px 0 #84b31e,
+
+    0px 8px 0 #000,
+    4px 8px 0 #1db324,
+    8px 8px 0 #1db324,
+    12px 8px 0 #1db324,
+    16px 8px 0 #000,
+    24px 8px 0 #000,
+    28px 8px 0 #1db324,
+    32px 8px 0 #84b31e,
+
+    4px 12px 0 #000,
+    8px 12px 0 #000,
+    12px 12px 0 #1db324,
+    16px 12px 0 #1db324,
+    20px 12px 0 #000,
+    24px 12px 0 #1db324,
+    28px 12px 0 #84b31e,
+    32px 12px 0 #84b31e,
+
+    12px 16px 0 #000,
+    16px 16px 0 #1db324,
+    20px 16px 0 #1db324,
+    24px 16px 0 #1db324,
+    28px 16px 0 #000,
+
+    12px 20px 0 #000,
+    16px 20px 0 #1db324,
+    20px 20px 0 #1db324,
+    24px 20px 0 #1db324,
+    28px 20px 0 #1db324,
+    32px 20px 0 #000,
+
+    16px 24px 0 #000,
+    20px 24px 0 #1db324,
+    28px 24px 0 #000,
+    32px 24px 0 #1db324
+    ; 
+  }
+}
+
   
-  & a,
-  & p,
-  & span {
-    color: #fff;    
+.icon{
+color:grey;
+margin:10px 0 10px 0;
+}
+
+.icon2{
+  color:grey;
+  margin:5px 0 15px 0;
   }
-  
-  & h2 {
-    font-weight: 700;
-    transform: translate(0, -4px);    
-  }
-  
-  & a {
-    text-decoration-color: rgba(255,255,255,0.4);
-  }
-  
-  & a:hover {
-    color: #e6e82a;
-  }
+
+#bookItem{
+  display: none;
+}
+
+#cat{
+  display: none;
+}
+
+#utensilsItem{
+  display: none;
 }
