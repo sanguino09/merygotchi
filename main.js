@@ -90,7 +90,7 @@ paw.addEventListener("click",function(){
 
   cat.style.display = "block";
   bookItem.style.display = "none";
-  utensilsItem.style.visibility = "none";
+  utensilsItem.style.display = "none";
 });
 
 var cat = document.getElementById("cat");

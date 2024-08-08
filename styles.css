@@ -502,7 +502,7 @@
             display: block;
             width: 4px;
             height: 4px;
-            animation: moveDumbellItem 1s infinite steps(2);
+            animation: moveDumbellItem 2s infinite steps(2);
           }
         }
         & .cat {
@@ -1140,6 +1140,14 @@ margin:10px 0 10px 0;
 }
 
 #cat{
+  display: none;
+}
+
+#gamepadItem{
+  display: none;
+}
+
+#dumbellItem{
   display: none;
 }
 
