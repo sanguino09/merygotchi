@@ -32,6 +32,8 @@
                 <div class="gamepadItem" id="gamepadItem"></div>
                 <audio id="gameAudio" src="./bloodborne.mp3"></audio>
 
+                <div class="deathItem" id="deathItem"></div>
+
                 <div class="dumbellItem" id="dumbellItem"></div>
                 <audio id="gymAudio" src="./lightweight.mp3"></audio>
 
@@ -54,12 +56,36 @@
           </div>
           <div class="right separation"></div>
           <div class="buttons-container">
-            <div class="left button"></div>
+            <i class="fa-solid fa-music "></i>
+            <div class="left button" onclick="playMusic()"></div>
+            <audio id="audio" src="./ba".mp3"></audio>
+
             <div class="middle button"></div>
-            <div class="right button"></div>
+            <div class="right button" onClick="window.location.reload();"></div>
+            <i class="fa-solid fa-rotate"></i>
           </div>
         </div>
       </div>
+      <div class="bottom">
+        <div class="bars">
+          <div class="happyBarDiv barDiv" >
+            <div style="top:100px;"><i class="fa-solid fa-face-smile fa-xl"></i></div>
+             <div class="progress" role="progressbar" id="progressBar">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" id="innerBar"></div>
+            </div>
+            </div>
+
+          <div class="energyBarDiv barDiv">
+            <div><i class="fa-solid fa-bolt fa-xl"></i></div>
+            <div class="progress2" role="progressbar2" id="progressBar2">
+             <div class="progress-bar2 progress-bar2-striped progress-bar2-animated" id="innerBar2"></div>
+            </div>
+          </div>
+  
+        </div>
+
+      </div>
+      
       <script src="https://kit.fontawesome.com/4651c977be.js" crossorigin="anonymous"></script>
 	<script src="./main.js"></script>
   </body>
