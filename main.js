@@ -45,7 +45,7 @@ const COLORS_BUTTON = [
   gamepadItem.style.display = "none";
   dumbellItem.style.display = "block";
 
-    var gymAudio = document.getElementById("gymAudio");
+  var gymAudio = document.getElementById("gymAudio");
   gymAudio.play();
 });
 
@@ -70,6 +70,7 @@ gamepad.addEventListener("click",function(){
 
   var gameAudio = document.getElementById("gameAudio");
   gameAudio.play();
+
 });
 utensils.addEventListener("click",function(){
   utensils.style.color = "#3b3a3a";
@@ -79,6 +80,9 @@ utensils.addEventListener("click",function(){
   cat.style.display = "none";
   bookItem.style.display = "none";
   utensilsItem.style.display = "block";
+
+  var foodAudio = document.getElementById("foodAudio");
+  foodAudio.play();
 });
 book.addEventListener("click",function(){
   book.style.color = "#3b3a3a";
@@ -88,6 +92,9 @@ book.addEventListener("click",function(){
   cat.style.display = "none";
   bookItem.style.display = "block";
   utensilsItem.style.display = "none";
+
+  var bookAudio = document.getElementById("bookAudio");
+  bookAudio.play();
 });
 paw.addEventListener("click",function(){
   paw.style.color = "#3b3a3a";
@@ -105,3 +112,5 @@ paw.addEventListener("click",function(){
 var cat = document.getElementById("cat");
 var bookItem = document.getElementById("bookItem");
 var utensilsItem = document.getElementById("utensilsItem");
+
+document.body.style.zoom="110%"
