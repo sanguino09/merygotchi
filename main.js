@@ -239,7 +239,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 function playMusic() {
   var audio = document.getElementById("audio");
-  audio.volume = 0.6;
+  audio.volume = 0.4;
   audio.play();
 }
 
