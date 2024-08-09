@@ -191,6 +191,9 @@ document.addEventListener("DOMContentLoaded", function() {
       utensilsItem.style.display = "none";
       
       deathItem.style.display = "block";
+      
+      progressBar.style.display ="none";
+      progressBar2.style.display ="none";
     }
   }, 15); // Geschwindigkeit der Animation (kleiner = schneller)
 });
@@ -228,12 +231,15 @@ document.addEventListener("DOMContentLoaded", function() {
       utensilsItem.style.display = "none";
 
       deathItem.style.display = "block";
+
+      progressBar.style.display ="none";
+      progressBar2.style.display ="none";
     }
   }, 15); // Geschwindigkeit der Animation (kleiner = schneller)
 });
 function playMusic() {
   var audio = document.getElementById("audio");
-  audio.volume = 0.4;
+  audio.volume = 0.6;
   audio.play();
 }
 
