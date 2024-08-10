@@ -16,7 +16,13 @@ const COLORS_BUTTON = [
   
   const changeColor = document.querySelector(".change-color");
   const tamagotchi = document.querySelector(".tamagotchi");
-  
+
+  const progressBar = document.querySelector(".progress-bar");
+  const progressBar2 = document.querySelector(".progress-bar2");
+
+  const happyIcon = document.querySelector(".happyIcon");
+  const energyIcon = document.querySelector(".energyIcon");
+
   changeColor.innerHTML = COLORS_BUTTON.map(color => {
     return `<button style="--color: ${color.color}; --text-color: ${color.buttonsColor}">
       <span>${color.text}</span>
@@ -28,6 +34,12 @@ const COLORS_BUTTON = [
     button.addEventListener("click", () => {
       tamagotchi.style.setProperty("--body-color", COLORS_BUTTON[index].color);
       tamagotchi.style.setProperty("--buttons-color", COLORS_BUTTON[index].buttonsColor);
+
+      progressBar.style.background = COLORS_BUTTON[index].color;
+      progressBar2.style.background = COLORS_BUTTON[index].color;
+
+      happyIcon.style.color = COLORS_BUTTON[index].color;
+      energyIcon.style.color = COLORS_BUTTON[index].color;
     });
   });
 
@@ -61,7 +73,7 @@ const COLORS_BUTTON = [
 
 dice.addEventListener("click",function(){
 
-  happyness = true;
+  happyness = false;
   energy = false;
 
   if (lose == false){
@@ -134,8 +146,8 @@ paw.addEventListener("click",function(){
   energy = false;
 
   if (lose == false){
-  happyness = True;
-  energy = False;
+  happyness = true;
+  energy = false;
   paw.style.color = "#3b3a3a";
   utensils.style.color = "grey";
   book.style.color = "grey";
@@ -194,6 +206,11 @@ document.addEventListener("DOMContentLoaded", function() {
       
       progressBar.style.display ="none";
       progressBar2.style.display ="none";
+
+      var lose = document.getElementById("lose");
+      lose.volume = 0.4;
+      lose.loop = false;
+      lose.play();
     }
   }, 15); // Geschwindigkeit der Animation (kleiner = schneller)
 });
@@ -216,7 +233,7 @@ document.addEventListener("DOMContentLoaded", function() {
       innerBar2.style.width = width2 + "%";
     }
     if (energy == true){
-      width2 = width2 + 0.05;
+      width2 = width2 + 0.15;
       innerBar2.style.width = width2 + "%";
     }
     // Wenn die Breite 100 erreicht, stoppe die Animation
@@ -234,6 +251,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
       progressBar.style.display ="none";
       progressBar2.style.display ="none";
+
+      var lose = document.getElementById("lose");
+      lose.volume = 0.4;
+      lose.play();
+      
     }
   }, 15); // Geschwindigkeit der Animation (kleiner = schneller)
 });
